@@ -7,7 +7,7 @@
     // let int1 = 1;
     // let float1 = 3.14;
     // let str1 = 'JavaScriptを覚えよう';
-
+    // alert(int)
 
 // 四則演算
     // alert(4 + 3);
