@@ -56,3 +56,16 @@
     /*  height: 200px;*/
     /*  width: 200px;*/
     /*}*/
+
+
+/* アニメーション(マウスオーバー・アウト) */
+    /*.box1 {*/
+    /*  background-color: #FF0000;*/
+    /*  height: 200px;*/
+    /*  width: 200px;*/
+    /*}*/
+
+  /* マウスオーバー時のcss定義をしておき、呼び出すだけにする */
+    /*.box1-ext {*/
+    /*  border: 10px solid black;*/
+    /*}*/

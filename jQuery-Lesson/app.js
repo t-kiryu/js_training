@@ -31,7 +31,7 @@
 
 // アニメーション(下から上へスライド)
         // $(function () {
-        //     $('.box1').slideUp();
+        //   $('.box1').slideUp();
         // })
 
 
@@ -44,8 +44,9 @@
 
 // アニメーション(要素の非表示)
         // $(function () {
-        //     $('.box1').hide();
+        //   $('.box1').hide();
         // })
+
 
 // 確認問題(自分)
         // $(function () {
@@ -72,3 +73,25 @@
         // })
 
 
+// アニメーション(マウスオーバー・アウト)
+    // マウスオーバー時のcss定義を利用
+        // $(function (){
+        //   $('.box1').mouseover(function () {
+        //     $('.box1').addClass('box1-ext');
+        //   });
+        //   $('.box1').mouseout(function () {
+        //     $('.box1').removeClass('box1-ext');
+        //   });
+        // })
+
+
+// アニメーション(クリック)
+    // クリック後に複数イベント発生
+        // $(function() {
+        //   $('.box1').on('click', function() {
+        //     $('.box1').addClass('box1-ext');
+        //   });
+        //   $('.box1').mouseout(function() {
+        //     $('.box1').removeClass('box1-ext');
+        //   });
+        // })
