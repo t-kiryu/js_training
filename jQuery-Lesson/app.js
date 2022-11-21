@@ -47,12 +47,28 @@
         //     $('.box1').hide();
         // })
 
-// 確認問題
-$(function () {
-  $('.box1').slideDown();
-  $('.box1').css({
-    'background-color': '#0000FF',
-    'height': '100px',
-    'width': '200px'
-  })
-})
+// 確認問題(自分)
+        // $(function () {
+        //   $('.box1').slideDown();
+        //   $('.box1').css({
+        //     'background-color': '#0000FF',
+        //     'height': '100px',
+        //     'width': '200px'
+        //   })
+        //   $('.box1').slideUp();
+        // })
+
+
+// 確認問題(解答)
+    // slideDownにfunctionを加えられ、アニメーション後にfunctionが機能する
+        // $(function () {
+        //   $('.box1').slideDown(function() {
+        //     $('.box1').css({
+        //         'background-color': '#0000FF',
+        //         'width': '200px',
+        //         'height': '100px'
+        //     }).slideUp();
+        //   });
+        // })
+
+
