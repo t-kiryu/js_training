@@ -4,7 +4,54 @@
   box-sizing: border-box;
 }
 
+/* div要素のスタイル変更*/
+    /*.box1 {*/
+    /*  background-color: #FF0000;*/
+    /*  height: 200px;*/
+    /*  width: 200px;*/
+    /*}*/
+
+
+/* アニメーション(上から下へスライド) */
+  /* html表示後にアニメーションのため display: none; 必要
+    /*.box1 {*/
+    /*  display: none;*/
+    /*  background-color: #FF0000;*/
+    /*  height: 200px;*/
+    /*  width: 200px;*/
+    /*}*/
+
+
+/* アニメーション(下から上へスライド) */
+  /* 表示要素を隠すアニメーションのため display: none; 不要
+    /*.box1 {*/
+    /*  background-color: #FF0000;*/
+    /*  height: 200px;*/
+    /*  width: 200px;*/
+    /*}*/
+
+
+/* アニメーション(要素の表示) */
+  /* html表示後にアニメーションのため display: none; 必要 */
+    /*.box1 {*/
+    /*  display: none;*/
+    /*  background-color: #FF0000;*/
+    /*  height: 200px;*/
+    /*  width: 200px;*/
+    /*}*/
+
+
+/* アニメーション(要素の非表示) */
+  /* 表示要素を隠すアニメーションのため display: none; 不要 */
+    /*.box1 {*/
+    /*  background-color: #FF0000;*/
+    /*  height: 200px;*/
+    /*  width: 200px;*/
+    /*}*/
+
+/* 確認問題 */
 .box1 {
+  display: none;
   background-color: #FF0000;
   height: 200px;
   width: 200px;
