@@ -1,3 +1,4 @@
+// index_2.htmlで利用開始
 // jQueryの基本記述
     // HTML読込後にjQueryが実行されるよう記述
         // $(document).ready(function () {
@@ -93,5 +94,30 @@
         //   });
         //   $('.box1').mouseout(function() {
         //     $('.box1').removeClass('box1-ext');
+        //   });
+        // })
+
+// index_3.htmlで利用開始
+// 操作対象指定(this)
+    // これまでの方法
+        // $(function() {
+        //   $('.bg1').on('click', function() {
+        //     $('.bg1').slideUp();
+        //   });
+        //   $('.bg2').on('click', function() {
+        //     $('.bg2').slideUp();
+        //   });
+        //   $('.bg3').on('click', function() {
+        //     $('.bg3').slideUp();
+        //   });
+        //   $('.bg4').on('click', function() {
+        //     $('.bg4').slideUp();
+        //   });
+        // });
+        
+    // .box1クラスをクリック時にthis(クリックされた要素)をslideUp
+        // $(function() {
+        //   $('.box1').on('click', function() {
+        //     $(this).slideUp();
         //   });
         // })
