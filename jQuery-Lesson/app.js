@@ -114,10 +114,19 @@
         //     $('.bg4').slideUp();
         //   });
         // });
-        
+
     // .box1クラスをクリック時にthis(クリックされた要素)をslideUp
         // $(function() {
         //   $('.box1').on('click', function() {
         //     $(this).slideUp();
         //   });
         // })
+
+    // html対象要素(ul)の子要素(li)に対して関数設定
+        // $(function() {
+        //   $('button').on('click', function() {
+        //     $('ul').children().css('color','red');
+        //   });
+        // })
+
+
