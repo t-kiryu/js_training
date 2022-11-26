@@ -1,4 +1,4 @@
-// index_2.htmlで利用開始
+// index_ch2.htmlで利用開始
 // jQueryの基本記述
     // HTML読込後にjQueryが実行されるよう記述
         // $(document).ready(function () {
