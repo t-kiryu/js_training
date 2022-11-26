@@ -1,0 +1,31 @@
+@charset "UTF-8";
+/* ↑ は「必ず」1行目でないとダメ */
+/* stylesheetがhtmlと分離したフォルダに存在する場合は文字コード明記がルール */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  text-align: center;
+  margin: 50px 0px;
+}
+
+.box{
+  height: 300px;
+  width: 600px;
+  margin: 0 auto 50px;
+  background-color: #eee;
+}
+
+#back {
+  position: fixed; /*fixe => "固定"の意味*/
+  right: 20px;
+  bottom: 20px;
+}
+
+#back img {
+  width: 50px;
+}

@@ -1,33 +1,27 @@
-// オプション指定してSkippr実行
-$(".theTarget").skippr({
+$(function() {
+  $('#back a').on('click', function(event) {
+    $('body, html').animate({
+      scrollTop:0
+    }, 800);
+    event.preventDefault();
+  });
+})
 
-  // スライドショーの変化("fade(フェード)" or "slide")
-  transition : 'fade',
 
-  // 変化時間(ミリ秒)
-  speed : 1000,
+//2行目
+    // back(id名)内のaタグ(要素)をクリックしたらイベント発生
+    // (event)引数 => (e)でも可
 
-  // easing種類(easing => エフェクトの動きを加速/減速させる関数)
-  easing : 'easeOutQuart',
+//3行目
+    // セレクタ名を指定(body, html)
+    // animate => アニメーション効果の設定関数
 
-  // ナビゲーションの形("block" or "bubble")
-  navType : 'block',
+//4行目
+   // スクロール位置取得(最上層のためtopを指定)
 
-  // 子要素の種類("div" or "img")
-  childrenElementType : 'div',
+//5行目
+    // スクロール時間指定(800ミリ秒 = 0.8秒)
+    // slow, normal, fastでも可
 
-  // ナビゲーション矢印表示(trueで表示)
-  arrows : true,
-
-  // スライドショー自動再生(falseで自動再生なし)
-  autoPlay : true,
-
-  // 自動再生時のスライド切替間隔(ミリ秒)
-  autoPlayDuration : 5000,
-
-  // キーボード矢印キーでスライド送り設定(trueで有効)
-  keyboardOnAlways : true,
-
-  // 1枚目スライド表示時に戻る矢印を表示([false]:矢印表示, [true]:矢印隠す)
-  hidePrevious : false
-});
+//6行目
+    // aタグの機能無効化
