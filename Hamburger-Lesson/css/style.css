@@ -19,7 +19,7 @@ h1 {
   background-color: #eee;
 }
 
-/* ----  ハンバーガーアイコン作成 ---- */
+/* ----  ハンバーガー メニューアイコン作成 ---- */
 #hm-icon {
   position: fixed;
   right: 20px;
@@ -82,7 +82,8 @@ h1 {
   position: fixed;
   top: 0;
   left: 0;
-  background: #fff;
+  background: #000;
+  color: #fff;
   width: 100%;
   min-height: 100px;
   display: none;
