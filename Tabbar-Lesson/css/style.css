@@ -21,6 +21,11 @@ h1 {
   display: flex;
 }
 
+#tab-menu li {
+  list-style-type: none;
+  width: 25%;
+}
+
 #tab-menu li a {
   color: #fff;
   text-decoration: none;
@@ -37,12 +42,12 @@ h1 {
   color: #000;
 }
 
-#tab-contetn {
+#tab-contents {
   display: flex;
   flex-wrap: wrap;
 }
 
-#tab-contetn .tab {
+#tab-contents .tab {
   width: 100%;
   padding: 30px;
   background: #fff;
@@ -50,7 +55,7 @@ h1 {
   border-top: none;
 }
 
-#tab-content p {
+#tab-contents p {
   color: #000;
-  line-height: 2.5  ;
+  line-height: 2.5;
 }
